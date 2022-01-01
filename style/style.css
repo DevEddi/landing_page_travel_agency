@@ -4,33 +4,40 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
-a, ul, li{
-    list-style: none;
-    text-decoration: none;
+a{
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover{
+    opacity: 0.7;
+}
+.logo{
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
 }
 
 nav{
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: #23232e;
+    height: 8vh;
 }
 
-
-.nav_wrap{
+.nav_list{
+    list-style: none;
     display: flex;
-    flex-wrap: wrap;
-    padding: 12px;
 }
 
-.nav_wrap ul{
-    display: flex;
-    flex-wrap: wrap;
-    padding-left:  20px;
+.nav_list li{
+    letter-spacing: 3px;
+    margin-left: 32px;
 }
 
-.list_nav li{
-    padding-left: 20px;
-    
-}
 
 .home_principal{
     display: flex;
@@ -40,11 +47,6 @@ nav{
 
 .home_principal article{
     padding: 20px;
-}
-
-.name_nav{
-    font-family:monospace;
-    font-size: 24px;
 }
 
 .titulo_home{

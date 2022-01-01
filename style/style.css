@@ -32,3 +32,23 @@ nav{
     
 }
 
+.home_principal{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;    
+}
+
+.home_principal article{
+    padding: 20px;
+}
+
+.name_nav{
+    font-family:monospace;
+    font-size: 24px;
+}
+
+.titulo_home{
+    font-size: 30px;
+    text-align: center;
+}
+

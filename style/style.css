@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a, ul, li{
+    list-style: none;
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.nav_wrap{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 12px;
+}
+
+.nav_wrap ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left:  20px;
+}
+
+.list_nav li{
+    padding-left: 20px;
+    
+}
+

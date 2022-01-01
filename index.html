@@ -5,31 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/camera_icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style/style.css">
     <title>Travel Agency</title>
 
 </head>
 <body>
     <nav>
-        <div>
+        <div class="nav_wrap">
             <ul>
                 <li>Travel Agency</li>
             </ul>
-            <ul>
+            <ul class="list_nav">
                 <li>Home</li>
                 <li>Travel</li>
                 <li>Contato</li>
             </ul>
         </div>
     </nav>
-    <main>
-        <!--Viagens imagens-->
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-    </main>
-    <article>
-        <h1>Título</h1>
-        <h3>Frase simples</h3>
-        <p>Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan disputationi eu sit.</p>
-    </article>
+    <div class="home_principal">
+        <main>
+            <picture>
+                <source media="(max-width: 750px )" srcset="img/farol_300x300.png" type="image/png">
+                <source media="(max-width: 1050px )" srcset="img/farol_700x700.png" type="image/png">            
+                <img src="img/farol_1000x1000.png" alt="imagem_farol">
+            </picture>
+            <!--Viagens imagens-->
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </main>
+        <article>
+            <h1>Título</h1>
+            <h3>Frase simples</h3>
+            <p>Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan disputationi eu sit.</p>
+        </article>
+    </div>
     
 </body>
 </html>

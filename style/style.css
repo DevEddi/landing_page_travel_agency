@@ -40,17 +40,65 @@ nav{
 
 
 .home_principal{
-    display: flex;
-    flex-wrap: wrap;
-    margin: 15px;    
+    display: flex;    
 }
 
-.home_principal article{
-    padding: 20px;
+.home_principal{
+    height: 92vh;
+}
+
+main{
+    background: url("../img/farol_1000x1000.png") no-repeat center center;
+    background-size: cover;
+    height: 92vh;
+    width: 50vw;
+}
+
+.main_home p{
+    margin: 20px;
+}
+
+article{
+    margin: 25px;
 }
 
 .titulo_home{
-    font-size: 30px;
+    font-size: 2.5em;
     text-align: center;
+    margin: 10vh;
 }
 
+.sub_titulo_home{
+    margin-bottom: 5vh;
+    font-size: 2em;
+}
+
+.paragrafo_home{
+    font-size: 16px;
+}
+
+ul, li{
+    list-style: none;
+}
+
+button{
+    width: 15vw;
+    height: 7vh;
+    border: none;
+    border-radius: 20px;
+    background: #23232e;
+    font-size: 24px;
+}
+
+.button_home{
+    margin-left: 15%;
+
+}
+
+.button_home ul{
+    display: flex;
+}
+
+.button_home li{
+    margin: 20px;
+}

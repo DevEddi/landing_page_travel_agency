@@ -2,8 +2,12 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Times New Roman', Times, serif;
+    
 }
 
+body{
+    background-color: #E9F2F0;
+}
 a{
   color: #fff;
   text-decoration: none;
@@ -55,7 +59,10 @@ main{
 }
 
 .main_home p{
-    margin: 20px;
+    font-size: 2.2em;
+    margin: 60px;
+    color: #8FA6A3;
+    text-shadow: 0.7px  black;
 }
 
 article{
@@ -71,6 +78,8 @@ article{
 .sub_titulo_home{
     margin-bottom: 5vh;
     font-size: 2em;
+    color: #A68053;
+    text-shadow: 1px 1px 1px;
 }
 
 .paragrafo_home{
